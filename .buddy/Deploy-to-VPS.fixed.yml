@@ -15,7 +15,7 @@
     - npm install
     - npm test
     shell: BASH
-  - action: npm run lint
+  - action: Lint
     type: BUILD
     docker_image_name: library/node
     docker_image_tag: 22
