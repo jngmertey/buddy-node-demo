@@ -6,7 +6,7 @@
   events:
   - type: WEBHOOK
   actions:
-  - action: npm test
+  - action: Test
     type: BUILD
     docker_image_name: library/node
     docker_image_tag: 22
