@@ -15,3 +15,11 @@
     - npm install
     - npm test
     shell: BASH
+  - action: npm run lint
+    type: BUILD
+    docker_image_name: library/node
+    docker_image_tag: 22
+    execute_commands:
+    - "# Enter a command or generate one using the 'Generate command' button below."
+    - npm run lint
+    shell: BASH
