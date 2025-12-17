@@ -23,3 +23,11 @@
     - "# Enter a command or generate one using the 'Generate command' button below."
     - npm run lint
     shell: BASH
+  - action: Build
+    type: BUILD
+    docker_image_name: library/node
+    docker_image_tag: 22
+    execute_commands:
+    - "# yarn install"
+    - npm run build
+    shell: BASH
